@@ -64,7 +64,7 @@ body {
   
   .box {
     background-color: rgb(233, 255, 241);
-    color: #fff;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 10px;
     font-size: 150%; 
@@ -73,6 +73,7 @@ body {
   .header,
   .footer {
     background-color: rgb(90, 253, 163);
+    color: black;
   }
 
   .sidebar {
