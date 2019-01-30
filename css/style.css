@@ -1,5 +1,6 @@
 body {
     margin: 40px;
+    background-color: rgb(168, 255, 236);
   }
   
   .sidebar {
@@ -13,6 +14,10 @@ body {
       .content {
           grid-area: content;
       }
+
+      .content2 {
+        grid-area: content2;
+        }
   
       .header {
           grid-area: header;
@@ -35,6 +40,7 @@ body {
        "sidebar"
        "content"
        "sidebar2"
+       "content2"
        "footer"
     }
   
@@ -44,7 +50,7 @@ body {
           grid-template-columns: 20% auto;
           grid-template-areas:
       "header   header"
-          "sidebar  content"
+          "sidebar  content  content2"
           "sidebar2 sidebar2"
           "footer   footer";
       }
@@ -56,9 +62,10 @@ body {
               grid-template-columns: 360px auto 120px;
               grid-template-areas:
         "header  header  header"
-              "sidebar content"
+              "sidebar content sidebar2"
+              "content2  content2  content2"
               "footer  footer  footer";
-              max-width: 1000px;
+              max-width: auto;
           }
       }
   
