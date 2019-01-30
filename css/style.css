@@ -35,6 +35,7 @@ body {
     .wrapper {
       display: grid;
       grid-gap: 1em;
+      background-color: aqua;
       grid-template-areas:
        "header"
        "sidebar"
