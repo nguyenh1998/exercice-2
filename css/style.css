@@ -1,5 +1,5 @@
 body {
-    margin: 40px;
+    margin: 150px;
     background-color: rgb(168, 255, 236);
   }
   
@@ -58,7 +58,7 @@ body {
   
       @media only screen and (min-width: 800px)   {
           .wrapper {
-        grid-gap: 20px;
+        grid-gap: 60px;
               grid-template-columns: 360px auto 120px;
               grid-template-areas:
         "header  header  header"
